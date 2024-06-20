@@ -23,25 +23,6 @@ Sample Output 0
 25
 20
 12.56
-
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-
-int main() {
-    int s,l,b;
-    float r;
-    scanf("%d%d%d%f",&s,&l,&b,&r);
-    int r1=s*s;
-    printf("%d\n",r1);
-    int r2=l*b;
-    printf("%d\n",r2);
-    float r3=3.14*r*r;
-    printf("%.2f",r3); 
-    return 0;
-}
-
 Sample Input 1
 
 10
@@ -64,3 +45,54 @@ Sample Output 2
 4
 18
 78.50
+
+
+
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int s,l,b;
+    float r;
+    scanf("%d%d%d%f",&s,&l,&b,&r);
+    int r1=s*s;
+    printf("%d\n",r1);
+    int r2=l*b;
+    printf("%d\n",r2);
+    float r3=3.14*r*r;
+    printf("%.2f",r3); 
+    return 0;
+}
+
+
+
+
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+    int s,l,b;
+        float r;
+        s=a.nextInt();
+        l=a.nextInt();
+        b=a.nextInt();
+        r=a.nextFloat();
+        int r1=s*s;
+        System.out.println(r1);
+        int r2=l*b;
+        System.out.println(r2);
+        float r3=(float)(3.14*r*r);
+        System.out.printf("%.2f",r3);
+        a.close();
+        
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
+
