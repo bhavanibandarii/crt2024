@@ -71,28 +71,3 @@ int main() {
 
 
 
-import java.io.*;
-import java.util.*;
-
-public class Solution {
-
-    public static void main(String[] args) {
-        Scanner a=new Scanner(System.in);
-    int s,l,b;
-        float r;
-        s=a.nextInt();
-        l=a.nextInt();
-        b=a.nextInt();
-        r=a.nextFloat();
-        int r1=s*s;
-        System.out.println(r1);
-        int r2=l*b;
-        System.out.println(r2);
-        float r3=(float)(3.14*r*r);
-        System.out.printf("%.2f",r3);
-        a.close();
-        
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-    }
-}
-
